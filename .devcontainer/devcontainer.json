@@ -4,6 +4,12 @@
     "PROJECT_DIR": "${containerWorkspaceFolder}"
   },
   "remoteUser": "vscode",
+  "features": {
+    "ghcr.io/devcontainers/features/nix:1": {
+      "version": "latest",
+      "multiUser": true,
+      "extraNixConfig": "experimental-features = nix-command flakes, trusted-users = root vscode"
+    },
   "customizations": {
     "vscode": {
       "settings": {
