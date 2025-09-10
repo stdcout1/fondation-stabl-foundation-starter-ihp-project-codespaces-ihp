@@ -9,7 +9,8 @@
       "version": "latest",
       "multiUser": true,
       "extraNixConfig": "experimental-features = nix-command flakes, trusted-users = root vscode"
-    },
+    }
+  },
   "customizations": {
     "vscode": {
       "settings": {
