@@ -7,9 +7,11 @@ This is an IHP template configured to run on GitHub Codespaces and [VSCode Devco
 ### For New Projects
 1. Create a repository from this template.
 2. Run it in Codespaces / Devcontainers.
-3. Wait for the initial setup to complete. This will take a few minutes and will use two bash windows, one of which will close when it's done. The other should be a blank terminal when it's done.
-4. Run `devenv up` to start the server.
-5. Have fun with IHP! :)
+3. Wait for the initial setup to complete.
+4. Run `nix develop` to start the shell.
+5. Run `ihp-new <name-of-project>` to bootstrap a project. 
+6. Enter the new directory and run `devenv up` to start the server.
+7. Have fun with IHP! :)
 
 ### An existing IHP project
 To add support to an existing IHP project, simply copy the [devcontainer configuration](.devcontainer/devcontainer.json) to your project, 
