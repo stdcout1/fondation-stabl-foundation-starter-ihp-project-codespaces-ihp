@@ -15,11 +15,15 @@
     "vscode": {
       "settings": {
         "terminal.integrated.profiles.linux": {
-          "bash": {
-            "path": "/bin/bash"
+          "nix-bash": {
+            "path": "/bin/bash",
+            "args": [
+              "-lc",
+              "nix develop"
+            ]
           }
         },
-        "terminal.integrated.defaultProfile.linux": "bash"
+        "terminal.integrated.defaultProfile.linux": "nix-bash"
       },
       "extensions": [
         "bbenoist.nix",
