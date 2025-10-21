@@ -1,6 +1,6 @@
 {
   "image": "ghcr.io/stdcout1/ihp-dev-prebuilt:latest",
-  "remoteUser": "vscode",
+  "remoteUser": "root",
   "customizations": {
     "vscode": {
       "settings": {
