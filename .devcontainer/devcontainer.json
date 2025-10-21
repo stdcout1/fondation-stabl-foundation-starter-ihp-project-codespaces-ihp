@@ -1,5 +1,5 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/base:jammy",
+  "image": "ghcr.io/stdcout1/ihp-dev-prebuilt:latest",
   "containerEnv": {
     "PROJECT_DIR": "${containerWorkspaceFolder}"
   },
