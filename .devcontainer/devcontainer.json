@@ -1,8 +1,8 @@
 {
   "image": "ghcr.io/stdcout1/ihp-dev-prebuilt:latest",
-  "remoteUser": "root",
+  "remoteUser": "vscode",
   "customizations": {
-    "root": {
+    "vscode": {
       "settings": {
         "terminal.integrated.profiles.linux": {
           "nix-bash": {
