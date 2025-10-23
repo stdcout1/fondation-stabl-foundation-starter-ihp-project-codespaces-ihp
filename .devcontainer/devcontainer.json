@@ -1,19 +1,18 @@
 {
   "image": "ghcr.io/stdcout1/ihp-dev-prebuilt:latest",
+  "containerEnv": {
+    "PROJECT_DIR": "${containerWorkspaceFolder}"
+  },
   "remoteUser": "vscode",
   "customizations": {
     "vscode": {
       "settings": {
         "terminal.integrated.profiles.linux": {
-          "nix-bash": {
-            "path": "/bin/bash",
-            "args": [
-              "-lc",
-              "nix develop"
-            ]
+          "bash": {
+            "path": "/bin/bash"
           }
         },
-        "terminal.integrated.defaultProfile.linux": "nix-bash"
+        "terminal.integrated.defaultProfile.linux": "bash"
       },
       "extensions": [
         "bbenoist.nix",
